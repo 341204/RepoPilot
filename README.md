@@ -2,6 +2,14 @@
 
 RepoPilot 是一个面向 GitHub PR / Issue 研发协作的全栈 AI Agent 项目。系统会连接仓库数据，分析 Issue、PR diff、CI 日志、项目知识库和本地工作区代码，并返回结构化建议与安全的操作草稿。
 
+## 界面预览
+
+前端采用石墨黑背景、蓝色强调与分组侧栏。工程工作台支持按需展开项目会话、查看本轮回答的引用与 Agent 执行记录；PR 和 CI 报告以结论、风险、检查清单与排查步骤分区呈现。小屏设备使用抽屉式导航与上下文面板。
+
+![RepoPilot 工程工作台](docs/images/repopilot-workspace.png)
+
+上图使用本地演示数据。侧栏导航、对话和证据面板均连接项目现有接口；历史消息仍可展开工具记录查看上下文。
+
 ## 核心能力
 
 - 连接并同步 GitHub 仓库中的 Issue、Pull Request、PR 文件、Review 评论、Workflow Run、Job 和日志。
